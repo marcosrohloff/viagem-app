@@ -7,13 +7,12 @@ public class Cliente {
 
     public Cliente() {
     }
-
     private Cliente(long id, String nome) {
         this.id = id;
         this.nome = nome;
     }
 
-    public static Cliente of(long id, String nome){
+    public static Cliente of(long id, String nome) {
         return new Cliente(id, nome);
     }
 
