@@ -8,7 +8,6 @@ import java.util.List;
 
 @Path("/reserva")
 public class ReservaResource {
-
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<Reserva> get() {

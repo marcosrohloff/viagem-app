@@ -8,7 +8,6 @@ import java.util.List;
 
 @Path("/cliente")
 public class ClienteResource {
-
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<Cliente> get() {
